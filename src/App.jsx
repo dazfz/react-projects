@@ -1,9 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Box, Center } from "@chakra-ui/react";
 import Game from "./components/memory/Game";
 import WeatherApp from "./components/weather/Weather";
-import Clock from "./components/Clock";
-import ClassInput from "./components/ClassInput";
 
 const App = () => {
   return (
@@ -27,9 +26,8 @@ const App = () => {
         flexDirection="column"
       >
         <WeatherApp />
-        <Clock />
+        <Link to="notprojects">Not projects</Link>
       </Box>
-      <ClassInput />
     </Center>
   );
 };
