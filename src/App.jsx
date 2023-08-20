@@ -3,6 +3,8 @@ import { Box, Center } from "@chakra-ui/react";
 import Game from "./components/memory/Game";
 import WeatherApp from "./components/weather/Weather";
 import Clock from "./components/Clock";
+import ClassInput from "./components/ClassInput";
+
 const App = () => {
   return (
     <Center>
@@ -22,10 +24,12 @@ const App = () => {
         display="flex"
         alignItems="center"
         justifyContent="center"
+        flexDirection="column"
       >
         <WeatherApp />
+        <Clock />
       </Box>
-      <Clock/>
+      <ClassInput />
     </Center>
   );
 };
