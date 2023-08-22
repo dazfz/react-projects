@@ -5,7 +5,7 @@ import App3 from "./components/notprojects/App3";
 import Clock from "./components/notprojects/Clock";
 import ClassInput from "./components/notprojects/ClassInput";
 import ErrorPage from "./components/notprojects/ErrorPage";
-import Appfso from "./components/fso/part1/courseinfo/Appfso";
+import Appfso from "./components/fso/part2/phonebook/Appfso";
 
 const Router = () => {
   const router = createBrowserRouter([
