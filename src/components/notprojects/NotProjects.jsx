@@ -12,6 +12,9 @@ const App2 = () => {
           <Link to="/react-projects">Back</Link>
         </Button>
         <Button>
+          <Link to="/react-projects/fso">FSO</Link>
+        </Button>
+        <Button>
           <Link to="/react-projects/ds/game">Memory Card Game</Link>
         </Button>
         <Button>

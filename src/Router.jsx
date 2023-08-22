@@ -5,6 +5,7 @@ import App3 from "./components/notprojects/App3";
 import Clock from "./components/notprojects/Clock";
 import ClassInput from "./components/notprojects/ClassInput";
 import ErrorPage from "./components/notprojects/ErrorPage";
+import Appfso from "./components/fso/part1/courseinfo/Appfso";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const Router = () => {
     {
       path: "/react-projects/ds/:name",
       element: <App3 />,
+    },
+    {
+      path: "/react-projects/fso",
+      element: <Appfso />,
     },
   ]);
 
