@@ -5,7 +5,7 @@ import App3 from "./components/notprojects/App3";
 import Clock from "./components/notprojects/Clock";
 import ClassInput from "./components/notprojects/ClassInput";
 import ErrorPage from "./components/notprojects/ErrorPage";
-import Appfso from "./components/fso/part2/phonebook/Appfso";
+import Countries from "./components/countries/Countries";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -31,8 +31,8 @@ const Router = () => {
       element: <App3 />,
     },
     {
-      path: "/react-projects/fso",
-      element: <Appfso />,
+      path: "/react-projects/countries",
+      element: <Countries />,
     },
   ]);
 

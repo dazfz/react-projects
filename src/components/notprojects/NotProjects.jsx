@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { Box, Button, Center } from "@chakra-ui/react";
@@ -12,7 +11,7 @@ const App2 = () => {
           <Link to="/react-projects">Back</Link>
         </Button>
         <Button>
-          <Link to="/react-projects/fso">FSO</Link>
+          <Link to="/react-projects/countries">FSO</Link>
         </Button>
         <Button>
           <Link to="/react-projects/ds/game">Memory Card Game</Link>

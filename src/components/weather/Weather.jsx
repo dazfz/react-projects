@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Box, Button, Input, Text, Flex, Image } from "@chakra-ui/react";
 
 function WeatherApp() {

@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { Box, Button, Center } from "@chakra-ui/react";
@@ -18,13 +17,7 @@ const App3 = () => {
         </Button>
       </Box>
       <Box display="flex" alignItems="center" justifyContent="center">
-        {name === "game" ? (
-          <Game />
-        ) : name === "weather" ? (
-          <WeatherApp />
-        ) : (
-          " "
-        )}
+        {name === "game" ? <Game /> : name === "weather" ? <WeatherApp /> : " "}
       </Box>
     </Center>
   );
